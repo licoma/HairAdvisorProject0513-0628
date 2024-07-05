@@ -1,0 +1,138 @@
+	.qna-board-list-search-box {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	background-color: #F5F5F5;
+	}
+
+	.qna-board-list-search-keyword {
+	font-weight: bold;
+	margin-right: 10px;
+	}
+
+	.qna-board-list-search-input-box {
+	flex: 1;
+	}
+
+	.qna-board-list-search-input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	}
+
+	.qna-board-list-search-input-button {
+	margin-left: 20px;  
+	padding: 8px 16px;  
+	background-color: #3a57e8;  
+	color: white;  
+	border: none; 
+	border-radius: 4px; 
+	font-size: 14px; 
+	cursor: pointer; 
+	}
+
+	.qna-board-list-table {
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+	.qna-board-table-th {
+	display: flex;
+	background-color: #E0E0E0;
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	}
+
+	.qna-board-list-table-number,
+	.qna-board-list-table-title,
+	.qna-board-list-tagle-status,
+	.qna-board-list-table-writer-id,
+	.qna-board-list-table-write-date,
+	.qna-board-list-table-viewcount {
+	flex: 1;
+	text-align: center;
+	}
+
+	.qna-board-list-table-title {
+	flex: 6;
+	padding-left: 10px; 
+	}
+
+	.qna-board-list-table-tr {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0; 
+	background-color: #ffffff; 
+	cursor: pointer;
+	}
+
+	.qna-board-list-table-tr:hover {
+	background-color: #f9f9f9;
+	}
+
+	.qna-board-list-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	}
+
+	.qna-board-list-pagenation {
+	display: flex;
+	align-items: center;
+	margin-right: 20px; 
+	}
+
+	.qna-board-list-page-box {
+	display: flex;
+	margin-left: 0;  
+	}
+
+
+	.qna-board-list-page {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #FFFFFF; 
+	color: #333333; 
+	}
+
+
+	.qna-board-list-page-active {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #A9A9A9; 
+	color: #333333;
+	font-weight: bold;
+	}
+
+	.qna-board-list-write-button {
+	padding: 8px 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	}
+
+	.qna-board-list-bottom-right {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	}
+
+	.qna-board-list-admin-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+
+	color: rgba(64, 64, 64, 1);
+	}

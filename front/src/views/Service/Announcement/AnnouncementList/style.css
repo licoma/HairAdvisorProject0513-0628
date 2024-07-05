@@ -1,0 +1,128 @@
+	.announcement-board-list-search-box {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	background-color: #F5F5F5;
+	}
+
+	.announcement-board-list-search-keyword {
+	font-weight: bold;
+	margin-right: 10px;
+	}
+
+	.announcement-board-list-search-input-box {
+	flex: 1;
+	}
+
+	.announcement-board-list-search-input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	}
+
+	.announcement-board-list-search-input-button {
+	margin-left: 20px; 
+	padding: 8px 16px; 
+	background-color: #3a57e8; 
+	color: white; 
+	border: none; 
+	border-radius: 4px; 
+	font-size: 14px; 
+	cursor: pointer; 
+	}
+
+	/* 수정: 게시물 목록 테이블 스타일 */
+	.announcement-board-list-table {
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+	.announcement-board-table-th {
+	display: flex;
+	background-color: #E0E0E0;
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	}
+
+	.announcement-board-list-table-number,
+	.announcement-board-list-table-writer-id,
+	.announcement-board-list-table-write-date,
+	.announcement-board-list-table-viewcount {
+	flex: 1;
+	text-align: center;
+	}
+
+	.announcement-board-list-table-title {
+	flex: 6;
+	padding-left: 10px; /* 제목 왼쪽 패딩 추가 */
+	}
+
+	.announcement-board-list-table-tr {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0; 
+	background-color: #ffffff; 
+	cursor: pointer;
+	}
+
+	.announcement-board-list-table-tr:hover {
+	background-color: #f9f9f9;
+	}
+
+	.announcement-board-list-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	}
+
+	.announcement-board-list-pagenation {
+	display: flex;
+	align-items: center;
+	margin-right: 20px; 
+	}
+
+	.announcement-board-list-page-left,
+	.announcement-board-list-page-right {
+	cursor: pointer;
+	margin: 0 5px;
+	}
+
+	.announcement-board-list-page-box {
+	display: flex;
+	margin-left: 0; 
+	}
+
+	.announcement-board-list-page {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: #333333; 
+	}
+
+
+	.announcement-board-list-page-active {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #A9A9A9; 
+	color: #333333;
+	font-weight: bold;
+	}
+
+	.announcement-board-list-write-button {
+	padding: 8px 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	}

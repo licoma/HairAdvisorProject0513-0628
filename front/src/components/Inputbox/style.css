@@ -1,0 +1,92 @@
+.input {
+    flex-grow: 1;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 10px;
+    padding: 4px 14px;
+
+    background-color: rgba(255, 255, 255, 1);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+
+    color: rgba(35, 45, 66, 1);
+}
+
+.input::placeholder {
+    color: rgba(138, 146, 166, 1);
+}
+
+input[type="radio"] {margin-right: 250px;}
+
+.input-box {
+  width: 200px;
+}
+
+.input-label {
+    color: rgba(0, 0, 0, 1);
+    margin-right: 100px
+}
+
+.input-content-box{
+    display: flex;
+    gap: 10px;
+    width: 350px;
+
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.input-primary-button {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 4px 0px;
+    border-radius: 6px;
+
+    background-color: rgba(255,190,152,1);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+
+    color: rgba(255, 255, 255, 1);
+
+    text-align: center;
+}
+
+.input-primary-button:hover {
+    cursor: pointer;
+}
+
+.input-disable-button {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 4px 0px;
+  border-radius: 6px;
+
+  background-color: rgba(238, 238, 238, 1);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+
+  color: rgba(138, 146, 166, 1);
+
+  text-align: center;
+}
+
+.input-message {
+  
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.error{
+  color: red;
+}

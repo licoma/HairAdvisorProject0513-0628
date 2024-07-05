@@ -1,0 +1,357 @@
+body{
+  -ms-overflow-style: none;
+  }
+  
+::-webkit-scrollbar {
+  display: none;
+}
+
+#main-page-wrapper {
+  min-width: none;
+  width: 100%;
+}
+
+.main-page-image-box {
+  width: 100%;
+  border: 5px solid rgba(255,190,152,0.7);
+}
+
+.main-page-title-image {
+  height: 155px;
+
+  background-image: url('../../assets/image/main-page-title-image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.main-page-image {
+  display: flex;
+  justify-self: center;
+
+  height: 740px;
+  border-top: solid rgba(255,190,152,0.7);
+  background-image: url('../../assets/image/main-page-image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* 회원가입 선택 공통 */
+#auth-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* 회원가입 선택 */
+.auth-welcome-image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.auth-welcome-image {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  width: 550px;
+  background-image: url('../../assets/image/welcome-image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.auth-choose-type-text {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px;
+
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.auth-type-image {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+
+.auth-type-image-customer {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 270px;
+  width: 270px;
+
+  border: 1px solid white;
+  border-radius: 10%;
+
+  background-image: url('../../assets/image/customer-image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.auth-type-image-customer:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.auth-type-image-designer {
+  display: block;
+  text-align: center;
+  align-items: center;
+  height: 270px;
+  width: 270px;
+
+  border: 1px solid white;
+  border-radius: 10%;
+
+  background-image: url('../../assets/image/designer-image.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.auth-type-image-designer:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.auth-type-text {
+  display: flex;
+  gap: 370px;
+  padding: 10px;
+  justify-content: center;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.auth-sign-up-sns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+
+  gap: 20px;
+}
+
+.auth-sign-up-naver {
+  margin: auto;
+  height: 50px;
+  width: 400px;
+
+  background-image: url(../../assets/image/naver-sign-up-button.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.auth-sign-up-naver:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.auth-sign-up-kakao {
+  margin: auto;
+  height: 50px;
+  width: 400px;
+
+  background-image: url(../../assets/image/kakao-sign-up-button.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.auth-sign-up-kakao:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* 회원가입 공통 */
+.auth-sign-up-title {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  margin-bottom: 50px;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  border-bottom: 3px solid rgba(255,190,152,0.7);
+}
+
+.auth-sign-up-text {
+  padding: 3px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(66, 66, 66, 1);
+}
+
+.auth-sign-up-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.auth-found-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+}
+
+.auth-under-bar {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.auth-left-null {
+  display: flex;
+  flex-grow: 1;
+}
+
+.auth-center-value {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+  border: 3px solid rgba(255,190,152,0.7);
+}
+
+.auth-right-null {
+  display: flex;
+  justify-content: end;
+  flex-grow: 1;
+}
+
+/* 회원가입 세부 */
+.auth-sign-up-box-text {
+  display: flex;
+}
+
+.sign-up-submit-box {
+  margin-top: 40px;
+}
+
+.auth-submit-box {
+  margin-top: 40px;
+}
+
+.auth-radio-box {
+  display: flex;
+  text-align: center
+}
+
+.auth-sign-up-radio-box {
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+}
+
+/* 이미지 */
+.login-image-box {
+  background-image: url("../../assets/image/sign-in-page-image.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  flex-grow: 2;
+}
+
+/* 로그인 UI */
+.sign-in-main-box {
+  display: flex;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 700px;
+  border: 3px solid rgba(255,190,152,0.7);
+}
+
+.login-page-title{
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: 3px solid rgba(255,190,152,0.7);;
+}
+
+.sign-up-next-box {
+  display: flex;
+  gap: 50px;
+
+  margin-right: 30px;
+
+  width: 300px;
+}
+
+.sign-in-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.socal-login {
+  display: flex;
+  gap: 250px;
+  margin-top: 80px;
+}
+
+.kakao-login {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+
+  cursor: pointer;
+  background-image: url("../../assets/image/kakao-button.png");
+}
+
+.naver-login {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+
+  cursor: pointer;
+  background-image: url("../../assets/image/naver-button.png");
+}
+
+.short-divider {
+  width: 64px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.user-found {
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.under-right-bar {
+  width: 600px;
+}
+
+.login-under-right-bar {
+  flex-grow: 1;
+}

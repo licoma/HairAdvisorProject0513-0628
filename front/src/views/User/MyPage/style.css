@@ -1,0 +1,63 @@
+#mypage-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+    border: 5px solid rgba(255,190,152,0.7);
+    border-radius: 25px;
+}
+
+.mypage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 85px 25px
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.information-image {
+  width: 167px;
+  height: 167px;
+  background-position:  50%;
+  background-size: contain;
+  background-image: url("../../../assets/image/개인정보수정.png");
+}
+
+.password-change-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.password-change-image {
+  width: 167px;
+  height: 167px;
+  background-position:  50%;
+  background-size: contain;
+  background-image: url("../../../assets/image/비밀번호\ 재설정.png");
+}
+
+.user-delete-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.user-delete-image {
+  width: 167px;
+  height: 167px;
+  background-position:  50%;
+  background-size: contain;
+  background-image: url("../../../assets/image/회원탈퇴.png");
+}

@@ -1,0 +1,161 @@
+	.customerboard-list-search-box {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	background-color: #F5F5F5;
+	}
+
+	.customerboard-list-search-keyword {
+	font-weight: bold;
+	margin-right: 10px;
+	}
+
+	.customerboard-list-search-input-box {
+	flex: 1;
+	
+	}
+
+	.customerboard-list-search-input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	}
+
+	.customerboard-list-search-input-button {
+	margin-left: 20px; 
+	padding: 8px 16px; 
+	background-color: #3a57e8; 
+	color: white; 
+	border: none; 
+	border-radius: 4px; 
+	font-size: 14px; 
+	cursor: pointer; 
+	}
+
+	.customerboard-list-table {
+	width: 100%;
+	border-collapse: collapse;
+	display: flex; 
+	flex-direction: column; 
+	}
+
+	.customerboard-table-th {
+	display: flex;
+	background-color: #E0E0E0;
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	}
+
+	.customerboard-list-table-board-number,
+	.customerboard-list-table-board-number-top {
+	flex: 0.5;
+	text-align: center;
+	}
+
+	.customerboard-list-table-writer-id,
+	.customerboard-list-table-writer-id-top {
+	flex: 2;
+	text-align: center;
+	}
+
+	.customerboard-list-table-write-date,
+	.customerboard-list-table-write-date-top {
+	flex: 1;
+	text-align: center;
+	}
+
+	.customerboard-list-table-viewcount,
+	.customerboard-list-table-viewcount-top {
+	flex: 0.5;
+	text-align: center;
+	}
+
+	.customerboard-list-table-title {
+	flex: 6;
+	text-align: left;
+	
+	word-break: break-all;
+	}
+
+	.customerboard-list-table-title-top {
+	flex: 6;
+	text-align: center;
+	}
+
+	.customerboard-list-table-tr {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0; 
+	background-color: #ffffff; 
+	cursor: pointer;
+	}
+
+	.customerboard-list-table-tr:hover {
+	background-color: #f9f9f9;
+	}
+
+	.customerboard-list-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	padding: 0 20px;
+	}
+
+
+	.customerboard-list-write-button-container {
+	display: flex;
+	justify-content: flex-end; 
+	}
+
+	.customerboard-list-pagenation {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	flex-grow: 1; 
+	}
+
+	.customerboard-list-page-left,
+	.customerboard-list-page-right {
+	cursor: pointer;
+	margin: 0 5px;
+	}
+
+	.customerboard-list-page-box {
+	display: flex;
+	margin-left: 0; 
+	}
+
+	.customerboard-list-page {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #FFFFFF; 
+	color: #333333; 
+	}
+
+
+	.customerboard-list-page-active {
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: #A9A9A9; 
+	color: #333333;
+	font-weight: bold;
+	}
+
+	.customerboard-list-write-button {
+	padding: 8px 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	}
